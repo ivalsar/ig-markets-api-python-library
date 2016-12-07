@@ -51,6 +51,8 @@ A lightweight Python library that can be used to connect to the IG Markets REST 
 
 IG Markets provide Retail Spread Betting and CFD accounts for trading Equities, Forex, Commodities, Indices and much more.
 
+Forked by ivalsar on 12/7/2016
+
 REST API
 --------
 
@@ -72,13 +74,6 @@ http://labs.ig.com/
 Install
 -------
 
-From Python package index
-~~~~~~~~~~~~~~~~~~~~~~~~~
-
-::
-
-    $ pip install trading_ig
-
 From source
 ~~~~~~~~~~~
 
@@ -86,39 +81,6 @@ Get latest version using Git
 
 ::
 
-    $ git clone https://github.com/ig-python/ig-markets-api-python-library.git
-    $ cd ig-markets-api-python-library
-    $ python setup.py install
-
-
-Work in progress
-----------------
-
-This project is not a `IG Markets <http://www.ig.com/>`__ project.
-Use it at your own risk.
-
-There is still some room for improvement, fix issue
-
-see :
-
--  http://labs.ig.com/node/98
--  https://labs.ig.com/node/28
--  http://www.andlil.com/forum/script-api-ig-stream-rest-t10091-10.html
--  https://github.com/ig-python/ig-markets-api-python-library/issues
-
-Thanks to
----------
--  `Lewis Barber <https://github.com/lewisbarber>`__
--  ixta
--  Chris
--  colombao
--  `gianluca.finocchiaro <https://github.com/gfinocchiaro>`__
--  Weswit
-
-Other related projects
-----------------------
-* igtrade (and forks)
-
-   * https://github.com/maroxe/igtrade
-   * https://github.com/falex69/igtrade
-   * https://github.com/yopibou/L3
+	$ git clone https://github.com/ivalsar/ig-markets-api-python-library.git
+	$ cd ig-markets-api-python-library
+	$ python setup.py install
